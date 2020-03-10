@@ -2,13 +2,15 @@
 
 exports[`<Counter /> should render without errors 1`] = `
 <Counter>
-  <p>
+  <p
+    id="option"
+  >
     The Godfather
   </p>
   <WithStyles(ForwardRef(Autocomplete))
+    debug={true}
     getOptionLabel={[Function]}
     id="combo-box-demo"
-    inputValue="The Godfather"
     name="tags"
     onChange={[Function]}
     options={
@@ -24,394 +26,6 @@ exports[`<Counter /> should render without errors 1`] = `
         Object {
           "title": "The Godfather: Part II",
           "year": 1974,
-        },
-        Object {
-          "title": "The Dark Knight",
-          "year": 2008,
-        },
-        Object {
-          "title": "12 Angry Men",
-          "year": 1957,
-        },
-        Object {
-          "title": "Schindler's List",
-          "year": 1993,
-        },
-        Object {
-          "title": "Pulp Fiction",
-          "year": 1994,
-        },
-        Object {
-          "title": "The Lord of the Rings: The Return of the King",
-          "year": 2003,
-        },
-        Object {
-          "title": "The Good, the Bad and the Ugly",
-          "year": 1966,
-        },
-        Object {
-          "title": "Fight Club",
-          "year": 1999,
-        },
-        Object {
-          "title": "The Lord of the Rings: The Fellowship of the Ring",
-          "year": 2001,
-        },
-        Object {
-          "title": "Star Wars: Episode V - The Empire Strikes Back",
-          "year": 1980,
-        },
-        Object {
-          "title": "Forrest Gump",
-          "year": 1994,
-        },
-        Object {
-          "title": "Inception",
-          "year": 2010,
-        },
-        Object {
-          "title": "The Lord of the Rings: The Two Towers",
-          "year": 2002,
-        },
-        Object {
-          "title": "One Flew Over the Cuckoo's Nest",
-          "year": 1975,
-        },
-        Object {
-          "title": "Goodfellas",
-          "year": 1990,
-        },
-        Object {
-          "title": "The Matrix",
-          "year": 1999,
-        },
-        Object {
-          "title": "Seven Samurai",
-          "year": 1954,
-        },
-        Object {
-          "title": "Star Wars: Episode IV - A New Hope",
-          "year": 1977,
-        },
-        Object {
-          "title": "City of God",
-          "year": 2002,
-        },
-        Object {
-          "title": "Se7en",
-          "year": 1995,
-        },
-        Object {
-          "title": "The Silence of the Lambs",
-          "year": 1991,
-        },
-        Object {
-          "title": "It's a Wonderful Life",
-          "year": 1946,
-        },
-        Object {
-          "title": "Life Is Beautiful",
-          "year": 1997,
-        },
-        Object {
-          "title": "The Usual Suspects",
-          "year": 1995,
-        },
-        Object {
-          "title": "Léon: The Professional",
-          "year": 1994,
-        },
-        Object {
-          "title": "Spirited Away",
-          "year": 2001,
-        },
-        Object {
-          "title": "Saving Private Ryan",
-          "year": 1998,
-        },
-        Object {
-          "title": "Once Upon a Time in the West",
-          "year": 1968,
-        },
-        Object {
-          "title": "American History X",
-          "year": 1998,
-        },
-        Object {
-          "title": "Interstellar",
-          "year": 2014,
-        },
-        Object {
-          "title": "Casablanca",
-          "year": 1942,
-        },
-        Object {
-          "title": "City Lights",
-          "year": 1931,
-        },
-        Object {
-          "title": "Psycho",
-          "year": 1960,
-        },
-        Object {
-          "title": "The Green Mile",
-          "year": 1999,
-        },
-        Object {
-          "title": "The Intouchables",
-          "year": 2011,
-        },
-        Object {
-          "title": "Modern Times",
-          "year": 1936,
-        },
-        Object {
-          "title": "Raiders of the Lost Ark",
-          "year": 1981,
-        },
-        Object {
-          "title": "Rear Window",
-          "year": 1954,
-        },
-        Object {
-          "title": "The Pianist",
-          "year": 2002,
-        },
-        Object {
-          "title": "The Departed",
-          "year": 2006,
-        },
-        Object {
-          "title": "Terminator 2: Judgment Day",
-          "year": 1991,
-        },
-        Object {
-          "title": "Back to the Future",
-          "year": 1985,
-        },
-        Object {
-          "title": "Whiplash",
-          "year": 2014,
-        },
-        Object {
-          "title": "Gladiator",
-          "year": 2000,
-        },
-        Object {
-          "title": "Memento",
-          "year": 2000,
-        },
-        Object {
-          "title": "The Prestige",
-          "year": 2006,
-        },
-        Object {
-          "title": "The Lion King",
-          "year": 1994,
-        },
-        Object {
-          "title": "Apocalypse Now",
-          "year": 1979,
-        },
-        Object {
-          "title": "Alien",
-          "year": 1979,
-        },
-        Object {
-          "title": "Sunset Boulevard",
-          "year": 1950,
-        },
-        Object {
-          "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-          "year": 1964,
-        },
-        Object {
-          "title": "The Great Dictator",
-          "year": 1940,
-        },
-        Object {
-          "title": "Cinema Paradiso",
-          "year": 1988,
-        },
-        Object {
-          "title": "The Lives of Others",
-          "year": 2006,
-        },
-        Object {
-          "title": "Grave of the Fireflies",
-          "year": 1988,
-        },
-        Object {
-          "title": "Paths of Glory",
-          "year": 1957,
-        },
-        Object {
-          "title": "Django Unchained",
-          "year": 2012,
-        },
-        Object {
-          "title": "The Shining",
-          "year": 1980,
-        },
-        Object {
-          "title": "WALL·E",
-          "year": 2008,
-        },
-        Object {
-          "title": "American Beauty",
-          "year": 1999,
-        },
-        Object {
-          "title": "The Dark Knight Rises",
-          "year": 2012,
-        },
-        Object {
-          "title": "Princess Mononoke",
-          "year": 1997,
-        },
-        Object {
-          "title": "Aliens",
-          "year": 1986,
-        },
-        Object {
-          "title": "Oldboy",
-          "year": 2003,
-        },
-        Object {
-          "title": "Once Upon a Time in America",
-          "year": 1984,
-        },
-        Object {
-          "title": "Witness for the Prosecution",
-          "year": 1957,
-        },
-        Object {
-          "title": "Das Boot",
-          "year": 1981,
-        },
-        Object {
-          "title": "Citizen Kane",
-          "year": 1941,
-        },
-        Object {
-          "title": "North by Northwest",
-          "year": 1959,
-        },
-        Object {
-          "title": "Vertigo",
-          "year": 1958,
-        },
-        Object {
-          "title": "Star Wars: Episode VI - Return of the Jedi",
-          "year": 1983,
-        },
-        Object {
-          "title": "Reservoir Dogs",
-          "year": 1992,
-        },
-        Object {
-          "title": "Braveheart",
-          "year": 1995,
-        },
-        Object {
-          "title": "M",
-          "year": 1931,
-        },
-        Object {
-          "title": "Requiem for a Dream",
-          "year": 2000,
-        },
-        Object {
-          "title": "Amélie",
-          "year": 2001,
-        },
-        Object {
-          "title": "A Clockwork Orange",
-          "year": 1971,
-        },
-        Object {
-          "title": "Like Stars on Earth",
-          "year": 2007,
-        },
-        Object {
-          "title": "Taxi Driver",
-          "year": 1976,
-        },
-        Object {
-          "title": "Lawrence of Arabia",
-          "year": 1962,
-        },
-        Object {
-          "title": "Double Indemnity",
-          "year": 1944,
-        },
-        Object {
-          "title": "Eternal Sunshine of the Spotless Mind",
-          "year": 2004,
-        },
-        Object {
-          "title": "Amadeus",
-          "year": 1984,
-        },
-        Object {
-          "title": "To Kill a Mockingbird",
-          "year": 1962,
-        },
-        Object {
-          "title": "Toy Story 3",
-          "year": 2010,
-        },
-        Object {
-          "title": "Logan",
-          "year": 2017,
-        },
-        Object {
-          "title": "Full Metal Jacket",
-          "year": 1987,
-        },
-        Object {
-          "title": "Dangal",
-          "year": 2016,
-        },
-        Object {
-          "title": "The Sting",
-          "year": 1973,
-        },
-        Object {
-          "title": "2001: A Space Odyssey",
-          "year": 1968,
-        },
-        Object {
-          "title": "Singin' in the Rain",
-          "year": 1952,
-        },
-        Object {
-          "title": "Toy Story",
-          "year": 1995,
-        },
-        Object {
-          "title": "Bicycle Thieves",
-          "year": 1948,
-        },
-        Object {
-          "title": "The Kid",
-          "year": 1921,
-        },
-        Object {
-          "title": "Inglourious Basterds",
-          "year": 2009,
-        },
-        Object {
-          "title": "Snatch",
-          "year": 2000,
-        },
-        Object {
-          "title": "3 Idiots",
-          "year": 2009,
-        },
-        Object {
-          "title": "Monty Python and the Holy Grail",
-          "year": 1975,
         },
       ]
     }
@@ -450,9 +64,9 @@ exports[`<Counter /> should render without errors 1`] = `
           "tagSizeSmall": "MuiAutocomplete-tagSizeSmall",
         }
       }
+      debug={true}
       getOptionLabel={[Function]}
       id="combo-box-demo"
-      inputValue="The Godfather"
       name="tags"
       onChange={[Function]}
       options={
@@ -468,394 +82,6 @@ exports[`<Counter /> should render without errors 1`] = `
           Object {
             "title": "The Godfather: Part II",
             "year": 1974,
-          },
-          Object {
-            "title": "The Dark Knight",
-            "year": 2008,
-          },
-          Object {
-            "title": "12 Angry Men",
-            "year": 1957,
-          },
-          Object {
-            "title": "Schindler's List",
-            "year": 1993,
-          },
-          Object {
-            "title": "Pulp Fiction",
-            "year": 1994,
-          },
-          Object {
-            "title": "The Lord of the Rings: The Return of the King",
-            "year": 2003,
-          },
-          Object {
-            "title": "The Good, the Bad and the Ugly",
-            "year": 1966,
-          },
-          Object {
-            "title": "Fight Club",
-            "year": 1999,
-          },
-          Object {
-            "title": "The Lord of the Rings: The Fellowship of the Ring",
-            "year": 2001,
-          },
-          Object {
-            "title": "Star Wars: Episode V - The Empire Strikes Back",
-            "year": 1980,
-          },
-          Object {
-            "title": "Forrest Gump",
-            "year": 1994,
-          },
-          Object {
-            "title": "Inception",
-            "year": 2010,
-          },
-          Object {
-            "title": "The Lord of the Rings: The Two Towers",
-            "year": 2002,
-          },
-          Object {
-            "title": "One Flew Over the Cuckoo's Nest",
-            "year": 1975,
-          },
-          Object {
-            "title": "Goodfellas",
-            "year": 1990,
-          },
-          Object {
-            "title": "The Matrix",
-            "year": 1999,
-          },
-          Object {
-            "title": "Seven Samurai",
-            "year": 1954,
-          },
-          Object {
-            "title": "Star Wars: Episode IV - A New Hope",
-            "year": 1977,
-          },
-          Object {
-            "title": "City of God",
-            "year": 2002,
-          },
-          Object {
-            "title": "Se7en",
-            "year": 1995,
-          },
-          Object {
-            "title": "The Silence of the Lambs",
-            "year": 1991,
-          },
-          Object {
-            "title": "It's a Wonderful Life",
-            "year": 1946,
-          },
-          Object {
-            "title": "Life Is Beautiful",
-            "year": 1997,
-          },
-          Object {
-            "title": "The Usual Suspects",
-            "year": 1995,
-          },
-          Object {
-            "title": "Léon: The Professional",
-            "year": 1994,
-          },
-          Object {
-            "title": "Spirited Away",
-            "year": 2001,
-          },
-          Object {
-            "title": "Saving Private Ryan",
-            "year": 1998,
-          },
-          Object {
-            "title": "Once Upon a Time in the West",
-            "year": 1968,
-          },
-          Object {
-            "title": "American History X",
-            "year": 1998,
-          },
-          Object {
-            "title": "Interstellar",
-            "year": 2014,
-          },
-          Object {
-            "title": "Casablanca",
-            "year": 1942,
-          },
-          Object {
-            "title": "City Lights",
-            "year": 1931,
-          },
-          Object {
-            "title": "Psycho",
-            "year": 1960,
-          },
-          Object {
-            "title": "The Green Mile",
-            "year": 1999,
-          },
-          Object {
-            "title": "The Intouchables",
-            "year": 2011,
-          },
-          Object {
-            "title": "Modern Times",
-            "year": 1936,
-          },
-          Object {
-            "title": "Raiders of the Lost Ark",
-            "year": 1981,
-          },
-          Object {
-            "title": "Rear Window",
-            "year": 1954,
-          },
-          Object {
-            "title": "The Pianist",
-            "year": 2002,
-          },
-          Object {
-            "title": "The Departed",
-            "year": 2006,
-          },
-          Object {
-            "title": "Terminator 2: Judgment Day",
-            "year": 1991,
-          },
-          Object {
-            "title": "Back to the Future",
-            "year": 1985,
-          },
-          Object {
-            "title": "Whiplash",
-            "year": 2014,
-          },
-          Object {
-            "title": "Gladiator",
-            "year": 2000,
-          },
-          Object {
-            "title": "Memento",
-            "year": 2000,
-          },
-          Object {
-            "title": "The Prestige",
-            "year": 2006,
-          },
-          Object {
-            "title": "The Lion King",
-            "year": 1994,
-          },
-          Object {
-            "title": "Apocalypse Now",
-            "year": 1979,
-          },
-          Object {
-            "title": "Alien",
-            "year": 1979,
-          },
-          Object {
-            "title": "Sunset Boulevard",
-            "year": 1950,
-          },
-          Object {
-            "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-            "year": 1964,
-          },
-          Object {
-            "title": "The Great Dictator",
-            "year": 1940,
-          },
-          Object {
-            "title": "Cinema Paradiso",
-            "year": 1988,
-          },
-          Object {
-            "title": "The Lives of Others",
-            "year": 2006,
-          },
-          Object {
-            "title": "Grave of the Fireflies",
-            "year": 1988,
-          },
-          Object {
-            "title": "Paths of Glory",
-            "year": 1957,
-          },
-          Object {
-            "title": "Django Unchained",
-            "year": 2012,
-          },
-          Object {
-            "title": "The Shining",
-            "year": 1980,
-          },
-          Object {
-            "title": "WALL·E",
-            "year": 2008,
-          },
-          Object {
-            "title": "American Beauty",
-            "year": 1999,
-          },
-          Object {
-            "title": "The Dark Knight Rises",
-            "year": 2012,
-          },
-          Object {
-            "title": "Princess Mononoke",
-            "year": 1997,
-          },
-          Object {
-            "title": "Aliens",
-            "year": 1986,
-          },
-          Object {
-            "title": "Oldboy",
-            "year": 2003,
-          },
-          Object {
-            "title": "Once Upon a Time in America",
-            "year": 1984,
-          },
-          Object {
-            "title": "Witness for the Prosecution",
-            "year": 1957,
-          },
-          Object {
-            "title": "Das Boot",
-            "year": 1981,
-          },
-          Object {
-            "title": "Citizen Kane",
-            "year": 1941,
-          },
-          Object {
-            "title": "North by Northwest",
-            "year": 1959,
-          },
-          Object {
-            "title": "Vertigo",
-            "year": 1958,
-          },
-          Object {
-            "title": "Star Wars: Episode VI - Return of the Jedi",
-            "year": 1983,
-          },
-          Object {
-            "title": "Reservoir Dogs",
-            "year": 1992,
-          },
-          Object {
-            "title": "Braveheart",
-            "year": 1995,
-          },
-          Object {
-            "title": "M",
-            "year": 1931,
-          },
-          Object {
-            "title": "Requiem for a Dream",
-            "year": 2000,
-          },
-          Object {
-            "title": "Amélie",
-            "year": 2001,
-          },
-          Object {
-            "title": "A Clockwork Orange",
-            "year": 1971,
-          },
-          Object {
-            "title": "Like Stars on Earth",
-            "year": 2007,
-          },
-          Object {
-            "title": "Taxi Driver",
-            "year": 1976,
-          },
-          Object {
-            "title": "Lawrence of Arabia",
-            "year": 1962,
-          },
-          Object {
-            "title": "Double Indemnity",
-            "year": 1944,
-          },
-          Object {
-            "title": "Eternal Sunshine of the Spotless Mind",
-            "year": 2004,
-          },
-          Object {
-            "title": "Amadeus",
-            "year": 1984,
-          },
-          Object {
-            "title": "To Kill a Mockingbird",
-            "year": 1962,
-          },
-          Object {
-            "title": "Toy Story 3",
-            "year": 2010,
-          },
-          Object {
-            "title": "Logan",
-            "year": 2017,
-          },
-          Object {
-            "title": "Full Metal Jacket",
-            "year": 1987,
-          },
-          Object {
-            "title": "Dangal",
-            "year": 2016,
-          },
-          Object {
-            "title": "The Sting",
-            "year": 1973,
-          },
-          Object {
-            "title": "2001: A Space Odyssey",
-            "year": 1968,
-          },
-          Object {
-            "title": "Singin' in the Rain",
-            "year": 1952,
-          },
-          Object {
-            "title": "Toy Story",
-            "year": 1995,
-          },
-          Object {
-            "title": "Bicycle Thieves",
-            "year": 1948,
-          },
-          Object {
-            "title": "The Kid",
-            "year": 1921,
-          },
-          Object {
-            "title": "Inglourious Basterds",
-            "year": 2009,
-          },
-          Object {
-            "title": "Snatch",
-            "year": 2000,
-          },
-          Object {
-            "title": "3 Idiots",
-            "year": 2009,
-          },
-          Object {
-            "title": "Monty Python and the Holy Grail",
-            "year": 1975,
           },
         ]
       }
@@ -916,144 +142,7 @@ exports[`<Counter /> should render without errors 1`] = `
                   <UNDEFINED />
                 </ForwardRef(WithStyles)>
               </div>,
-              "ref": [MockFunction] {
-                "calls": Array [
-                  Array [
-                    <div
-                      class="MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
-                    >
-                      <input
-                        aria-autocomplete="list"
-                        aria-invalid="false"
-                        autocapitalize="none"
-                        autocomplete="off"
-                        class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
-                        id="combo-box-demo"
-                        spellcheck="false"
-                        type="text"
-                        value="The Godfather"
-                      />
-                      <div
-                        class="MuiAutocomplete-endAdornment"
-                      >
-                        <button
-                          aria-label="Clear"
-                          class="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-clearIndicator"
-                          tabindex="-1"
-                          title="Clear"
-                          type="button"
-                        >
-                          <span
-                            class="MuiIconButton-label"
-                          >
-                            <svg
-                              aria-hidden="true"
-                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
-                              focusable="false"
-                              role="presentation"
-                              viewBox="0 0 24 24"
-                            >
-                              <path
-                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                              />
-                            </svg>
-                          </span>
-                        </button>
-                        <button
-                          aria-label="Open"
-                          class="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-popupIndicator"
-                          tabindex="-1"
-                          title="Open"
-                          type="button"
-                        >
-                          <span
-                            class="MuiIconButton-label"
-                          >
-                            <svg
-                              aria-hidden="true"
-                              class="MuiSvgIcon-root"
-                              focusable="false"
-                              role="presentation"
-                              viewBox="0 0 24 24"
-                            >
-                              <path
-                                d="M7 10l5 5 5-5z"
-                              />
-                            </svg>
-                          </span>
-                        </button>
-                      </div>
-                      <fieldset
-                        aria-hidden="true"
-                        class="PrivateNotchedOutline-root-103 MuiOutlinedInput-notchedOutline"
-                      >
-                        <legend
-                          class="PrivateNotchedOutline-legendLabelled-105 PrivateNotchedOutline-legendNotched-106"
-                        >
-                          <span>
-                            Combo box
-                          </span>
-                        </legend>
-                      </fieldset>
-                    </div>,
-                  ],
-                  Array [
-                    true,
-                  ],
-                  Array [
-                    true,
-                  ],
-                  Array [
-                    true,
-                  ],
-                  Array [
-                    true,
-                  ],
-                  Array [
-                    false,
-                  ],
-                  Array [
-                    "mui-autocomplete-81525",
-                  ],
-                  Array [
-                    "",
-                  ],
-                ],
-                "results": Array [
-                  Object {
-                    "type": "return",
-                    "value": undefined,
-                  },
-                  Object {
-                    "type": "return",
-                    "value": undefined,
-                  },
-                  Object {
-                    "type": "return",
-                    "value": undefined,
-                  },
-                  Object {
-                    "type": "return",
-                    "value": undefined,
-                  },
-                  Object {
-                    "type": "return",
-                    "value": undefined,
-                  },
-                  Object {
-                    "type": "return",
-                    "value": undefined,
-                  },
-                  Object {
-                    "type": "return",
-                    "value": undefined,
-                  },
-                  Object {
-                    "type": "return",
-                    "value": undefined,
-                  },
-                ],
-              },
+              "ref": [Function],
               "startAdornment": undefined,
             }
           }
@@ -1084,11 +173,11 @@ exports[`<Counter /> should render without errors 1`] = `
                   id="combo-box-demo"
                   spellcheck="false"
                   type="text"
-                  value="The Godfather"
+                  value=""
                 />,
               },
               "spellCheck": "false",
-              "value": "The Godfather",
+              "value": "",
             }
           }
           label="Combo box"
@@ -1129,144 +218,7 @@ exports[`<Counter /> should render without errors 1`] = `
                     <UNDEFINED />
                   </ForwardRef(WithStyles)>
                 </div>,
-                "ref": [MockFunction] {
-                  "calls": Array [
-                    Array [
-                      <div
-                        class="MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
-                      >
-                        <input
-                          aria-autocomplete="list"
-                          aria-invalid="false"
-                          autocapitalize="none"
-                          autocomplete="off"
-                          class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
-                          id="combo-box-demo"
-                          spellcheck="false"
-                          type="text"
-                          value="The Godfather"
-                        />
-                        <div
-                          class="MuiAutocomplete-endAdornment"
-                        >
-                          <button
-                            aria-label="Clear"
-                            class="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-clearIndicator"
-                            tabindex="-1"
-                            title="Clear"
-                            type="button"
-                          >
-                            <span
-                              class="MuiIconButton-label"
-                            >
-                              <svg
-                                aria-hidden="true"
-                                class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
-                                focusable="false"
-                                role="presentation"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                                />
-                              </svg>
-                            </span>
-                          </button>
-                          <button
-                            aria-label="Open"
-                            class="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-popupIndicator"
-                            tabindex="-1"
-                            title="Open"
-                            type="button"
-                          >
-                            <span
-                              class="MuiIconButton-label"
-                            >
-                              <svg
-                                aria-hidden="true"
-                                class="MuiSvgIcon-root"
-                                focusable="false"
-                                role="presentation"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  d="M7 10l5 5 5-5z"
-                                />
-                              </svg>
-                            </span>
-                          </button>
-                        </div>
-                        <fieldset
-                          aria-hidden="true"
-                          class="PrivateNotchedOutline-root-103 MuiOutlinedInput-notchedOutline"
-                        >
-                          <legend
-                            class="PrivateNotchedOutline-legendLabelled-105 PrivateNotchedOutline-legendNotched-106"
-                          >
-                            <span>
-                              Combo box
-                            </span>
-                          </legend>
-                        </fieldset>
-                      </div>,
-                    ],
-                    Array [
-                      true,
-                    ],
-                    Array [
-                      true,
-                    ],
-                    Array [
-                      true,
-                    ],
-                    Array [
-                      true,
-                    ],
-                    Array [
-                      false,
-                    ],
-                    Array [
-                      "mui-autocomplete-81525",
-                    ],
-                    Array [
-                      "",
-                    ],
-                  ],
-                  "results": Array [
-                    Object {
-                      "type": "return",
-                      "value": undefined,
-                    },
-                    Object {
-                      "type": "return",
-                      "value": undefined,
-                    },
-                    Object {
-                      "type": "return",
-                      "value": undefined,
-                    },
-                    Object {
-                      "type": "return",
-                      "value": undefined,
-                    },
-                    Object {
-                      "type": "return",
-                      "value": undefined,
-                    },
-                    Object {
-                      "type": "return",
-                      "value": undefined,
-                    },
-                    Object {
-                      "type": "return",
-                      "value": undefined,
-                    },
-                    Object {
-                      "type": "return",
-                      "value": undefined,
-                    },
-                  ],
-                },
+                "ref": [Function],
                 "startAdornment": undefined,
               }
             }
@@ -1302,11 +254,11 @@ exports[`<Counter /> should render without errors 1`] = `
                     id="combo-box-demo"
                     spellcheck="false"
                     type="text"
-                    value="The Godfather"
+                    value=""
                   />,
                 },
                 "spellCheck": "false",
-                "value": "The Godfather",
+                "value": "",
               }
             }
             label="Combo box"
@@ -1366,7 +318,7 @@ exports[`<Counter /> should render without errors 1`] = `
                       id="combo-box-demo-label"
                     >
                       <WithStyles(ForwardRef(FormLabel))
-                        className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                        className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
                         classes={
                           Object {
                             "asterisk": "MuiInputLabel-asterisk",
@@ -1376,12 +328,12 @@ exports[`<Counter /> should render without errors 1`] = `
                             "required": "Mui-required",
                           }
                         }
-                        data-shrink={[Function]}
+                        data-shrink={false}
                         htmlFor="combo-box-demo"
                         id="combo-box-demo-label"
                       >
                         <ForwardRef(FormLabel)
-                          className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+                          className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
                           classes={
                             Object {
                               "asterisk": "MuiFormLabel-asterisk MuiInputLabel-asterisk",
@@ -1394,13 +346,13 @@ exports[`<Counter /> should render without errors 1`] = `
                               "root": "MuiFormLabel-root",
                             }
                           }
-                          data-shrink={[Function]}
+                          data-shrink={false}
                           htmlFor="combo-box-demo"
                           id="combo-box-demo-label"
                         >
                           <label
-                            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
-                            data-shrink={[Function]}
+                            className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+                            data-shrink={false}
                             htmlFor="combo-box-demo"
                             id="combo-box-demo-label"
                           >
@@ -1466,11 +418,11 @@ exports[`<Counter /> should render without errors 1`] = `
                             id="combo-box-demo"
                             spellcheck="false"
                             type="text"
-                            value="The Godfather"
+                            value=""
                           />,
                         },
                         "spellCheck": "false",
-                        "value": "The Godfather",
+                        "value": "",
                       }
                     }
                     label={
@@ -1555,11 +507,11 @@ exports[`<Counter /> should render without errors 1`] = `
                               id="combo-box-demo"
                               spellcheck="false"
                               type="text"
-                              value="The Godfather"
+                              value=""
                             />,
                           },
                           "spellCheck": "false",
-                          "value": "The Godfather",
+                          "value": "",
                         }
                       }
                       label={
@@ -1645,11 +597,11 @@ exports[`<Counter /> should render without errors 1`] = `
                                 id="combo-box-demo"
                                 spellcheck="false"
                                 type="text"
-                                value="The Godfather"
+                                value=""
                               />,
                             },
                             "spellCheck": "false",
-                            "value": "The Godfather",
+                            "value": "",
                           }
                         }
                         multiline={false}
@@ -1735,11 +687,11 @@ exports[`<Counter /> should render without errors 1`] = `
                                   id="combo-box-demo"
                                   spellcheck="false"
                                   type="text"
-                                  value="The Godfather"
+                                  value=""
                                 />,
                               },
                               "spellCheck": "false",
-                              "value": "The Godfather",
+                              "value": "",
                             }
                           }
                           multiline={false}
@@ -1769,7 +721,7 @@ exports[`<Counter /> should render without errors 1`] = `
                               required={false}
                               spellCheck="false"
                               type="text"
-                              value="The Godfather"
+                              value=""
                             />
                             <div
                               className="MuiAutocomplete-endAdornment"
@@ -1888,7 +840,36 @@ exports[`<Counter /> should render without errors 1`] = `
                                             </WithStyles(ForwardRef(SvgIcon))>
                                           </ForwardRef>
                                         </span>
-                                        <NoSsr />
+                                        <NoSsr>
+                                          <WithStyles(undefined)
+                                            center={true}
+                                          >
+                                            <ForwardRef(TouchRipple)
+                                              center={true}
+                                              classes={
+                                                Object {
+                                                  "child": "MuiTouchRipple-child",
+                                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                                  "ripple": "MuiTouchRipple-ripple",
+                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                  "root": "MuiTouchRipple-root",
+                                                }
+                                              }
+                                            >
+                                              <span
+                                                className="MuiTouchRipple-root"
+                                              >
+                                                <TransitionGroup
+                                                  childFactory={[Function]}
+                                                  component={null}
+                                                  exit={true}
+                                                />
+                                              </span>
+                                            </ForwardRef(TouchRipple)>
+                                          </WithStyles(undefined)>
+                                        </NoSsr>
                                       </button>
                                     </ForwardRef(ButtonBase)>
                                   </WithStyles(ForwardRef(ButtonBase))>
@@ -2005,7 +986,36 @@ exports[`<Counter /> should render without errors 1`] = `
                                             </WithStyles(ForwardRef(SvgIcon))>
                                           </ForwardRef>
                                         </span>
-                                        <NoSsr />
+                                        <NoSsr>
+                                          <WithStyles(undefined)
+                                            center={true}
+                                          >
+                                            <ForwardRef(TouchRipple)
+                                              center={true}
+                                              classes={
+                                                Object {
+                                                  "child": "MuiTouchRipple-child",
+                                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                                  "ripple": "MuiTouchRipple-ripple",
+                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                  "root": "MuiTouchRipple-root",
+                                                }
+                                              }
+                                            >
+                                              <span
+                                                className="MuiTouchRipple-root"
+                                              >
+                                                <TransitionGroup
+                                                  childFactory={[Function]}
+                                                  component={null}
+                                                  exit={true}
+                                                />
+                                              </span>
+                                            </ForwardRef(TouchRipple)>
+                                          </WithStyles(undefined)>
+                                        </NoSsr>
                                       </button>
                                     </ForwardRef(ButtonBase)>
                                   </WithStyles(ForwardRef(ButtonBase))>
@@ -2020,7 +1030,7 @@ exports[`<Counter /> should render without errors 1`] = `
                                 </React.Fragment>
                               }
                               labelWidth={0}
-                              notched={true}
+                              notched={false}
                             >
                               <ForwardRef(NotchedOutline)
                                 className="MuiOutlinedInput-notchedOutline"
@@ -2038,14 +1048,14 @@ exports[`<Counter /> should render without errors 1`] = `
                                   </React.Fragment>
                                 }
                                 labelWidth={0}
-                                notched={true}
+                                notched={false}
                               >
                                 <fieldset
                                   aria-hidden={true}
                                   className="PrivateNotchedOutline-root-103 MuiOutlinedInput-notchedOutline"
                                 >
                                   <legend
-                                    className="PrivateNotchedOutline-legendLabelled-105 PrivateNotchedOutline-legendNotched-106"
+                                    className="PrivateNotchedOutline-legendLabelled-105"
                                   >
                                     <span>
                                       Combo box
